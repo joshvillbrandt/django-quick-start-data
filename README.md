@@ -12,9 +12,9 @@ This app requires Django >= 1.5 and Tastypie. If you don't have these things ins
     sudo apt-get install python-pip
     sudo pip install django==1.5 python-dateutil python-mimeparse django-tastypie
 
-Then check out this code and add your custom data models.
+Then start your project and add your custom data models.
 
-    git clone https://github.com/joshvillbrandt/django-quick-start-data.git
+    django-admin.py startproject --template=https://github.com/joshvillbrandt/django-quick-start-data/archive/master.zip --extension=py,html site_name
 
 When you are ready to roll, sync your database and start the server.
 
